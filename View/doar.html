@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>AAFS - Abrigo de animais Feira de Santana</title>
+
+    <link rel="stylesheet" href="../Assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../Assets/Css/doar.css">
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: seagreen;">
+      <div class="container">
+        <a class="navbar-brand" href="#"> <img class="logo" src="../Assets/Img/logoOP1.jpg" alt="Logo animais"> <span style="font-size: 15px;">AAFS</span>  </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home
+              </a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="sobreNos.html">Sobre Nós</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="adoteGato.html">Adote um gato</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="adoteCao.html">Adote um cachorro</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="doar.html">Ajude a AAFS</a>
+                <span class="sr-only">(current)</span>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="agenda.html">Agenda de eventos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="adm.html">Administrador</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+          </div>
+        </div>
+      </div>
+    </header>
+        
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-9" style="margin-left: 140px;"> 
+            <h2 class="mt-4"><center> Ajude dezenas de animaizinhos! </center> </br> </h2>
+            <p>
+                Bom, como somos uma ONG que funciona sem a ajuda do governo, nos mantemos através do auxílio dos nossos voluntários
+                e das doações que recebemos. Veja abaixo como você pode nos ajudar!  
+            </p>
+
+             <!-- Tab links -->
+             <div class="tab">
+                <button class="tablinks" onclick="openDoacao(event, 'doador')" id="defaultOpen">Seja um doador</button>
+                <button class="tablinks" onclick="openDoacao(event, 'voluntario')">Quero ser voluntário</button>
+                <button class="tablinks" onclick="openDoacao(event, 'dinero')">Doador VIP</button>
+                <button class="tablinks" onclick="openDoacao(event, 'parca')">Seja nosso parceiro</button>
+
+            </div> 
+            <div id="doador" class="tabcontent">
+                <p>
+                    Para isso você pode colaborar com diversos materiais. O ponto de entrega é aos domingos, 
+                    durante nossas feiras de adoção. Ou entre em contato conosco pelo e-mail para saber quais os outros pontos de coleta. 
+                    Você pode doar: </br>
+                    <ul>
+                        <li> <b> Medicamentos: </b> Aceitamos doações de medicamentos humanos e veterinários. </br> </li>
+                        <li> <b> Materiais de ambulatório: </b> Esparadrapo, luvas de procedimento, ataduras, gaze, seringas, soro, etc. </br> </li>
+                        <li> <b> Produtos de limpeza: </b> A demanda de limpeza no Abrigo é constante e qualquer material é bem-vindo! 
+                            Sugerimos: panos de chão, vassouras, </b> amônia quaternária, cloro, água sanitária, desinfetante, detergente, sabão em pó, 
+                            sabão líquido ou em barra, shampoo e condicionador para cães, luvas de limpeza, bucha, entre outros.</br> 
+                        </li>
+                        <li> <b> Outros: </b> papelões (grandes, abertos e limpos), colchas, toalhas, cobertores, colchonetes sem rasgos, caixas de transporte. </br> </li>
+                    </ul>
+                    As doações também podem ser feitas em dinheiro. Deposite o valor que desejar em uma das nossas contas. Para isso
+                    basta enviar um email para gente que retornamos informando os nossos dados bancários. 
+
+                    Dúvidas sobre outros materiais para doação? Entre em contato conosco!   
+                </p>
+            </div>
+            
+            <div id="voluntario" class="tabcontent">
+                <p>
+                    Precisamos de toda ajuda possível para mudar a vida das centenas de cães e gatos do Abrigo de Animais de Feira de Santana. 
+                    Pedimos que o primeiro contato do voluntariado seja durante nossas feiras de adoção, exclusivas para os animais do 
+                    AAFS, pois nosso objetivo é diminuir a quantidade de animais abandonados que aguardam adoção no Abrigo. 
+                </p>
+                <p>
+                    Nas feiras você pode ajudar a cuidar dos gatos, levar os cães para passear, receber doações e conversar com os visitantes. 
+                    Lá anotamos seus dados para que você sempre receba nossas informações 
+                    atualizadas de mutirões, eventos, feiras, etc. 
+                    O horário para voluntários é de 8h às 13h horas. Apareça, conheça nosso trabalho e faça parte de nossa equipe!
+                </p>
+            </div>
+            
+            <div id="dinero" class="tabcontent">
+                <p>
+                    Para fazer parte do Doador VIP é bem fácil. Primeiro você entra em contato com a gente, especifícando que 
+                    que fazer parte dessa doação. Você se comprometera a doar mensalmente uma quantia para manutenção do
+                    Abrigo de animais de Feira de Santana. Deposite sua contribuição em uma das contas do abrigo ou, 
+                    se preferir doar via boleto ou cartão. Os dados da conta serão mandados via email após o seu contato.
+                </p>
+                <p>
+                    Ajude-nos a cuidar das centenas de cães e gatos que vivem no abrigo! Tenha certeza que sua doação é muito 
+                    importante para oferecermos um ambiente seguro, confortável e limpo para nossos peludos e bichanos. Agradecemos de coração!
+                </p>
+            </div>
+
+            <div id="parca" class="tabcontent">
+                <p>
+                    Nossos Parceiros colaboram de diversas formas: desde banhos e consultas gratuitas para animais adotados, 
+                    bem como castrações e consultas emergenciais a baixo custo, até a doação de materiais de limpeza e produtos para vender na 
+                    Feira de Adoção. 
+                  </p>
+                  <p> 
+                    Quer ser nosso Parceiro? Envie um e-mail para gente e conte como pode nos ajudar.
+                  </p>
+            </div>
+
+            </br> </br>
+        </div>
+      </div>
+    </div>
+    
+    <footer class="py-5" style="background-color: seagreen; ">
+      <div class="container">
+          <div class="row">
+            <div class="col-md-6 mb-4">
+              <h3>Fale conosco</h3>
+              <form class="form-inline">
+                <input class="form-control" type="text" placeholder="Nome" style="margin-right: 8px;">
+                <input class="form-control" type="text" placeholder="Email" style="padding-right: 2px;">
+                <textarea class="form-control col-md-10" type="text" placeholder="Mensagem" style="margin-top: 5px;" ></textarea>                  
+                <i class="fa fa-search" aria-hidden="true"></i>
+              </form>
+              <div class="input-group-append" style="margin-top: 5px;">
+                  <button class="btn btn-primary" type="button">Enviar</button>
+                </div>
+            </div>
+
+            <div class="col-md-6 mb-4">
+              <h2>Endereço/Contato</h2>
+              <address>
+                <strong>AAFS</strong>
+                <br>Avenida Transnordestina, Novo Horizonte 
+                <br>Feira de Santana, Bahia, 44036900
+                <br>
+              </address>
+              <address>
+                <abbr title="Phone">Telefone:</abbr>
+                (75) 9 9285-1111
+                <br>
+                <abbr title="Email">Email:</abbr>
+                <a href="mailto:#">houdiniam@gmail.com</a>
+              </address>
+            </div>
+          </div>
+        </div>
+    </footer>
+    <script src="../Vendors/Css/bootstrap.min.css"></script>
+    <script src="../Vendors/Js/bootstrap.min.js"></script>
+    <script src="../Vendor/JQuery/jquery.js"></script>
+    <script src="../Assets/Js/doar.js" > </script>
+
+  </body>
+
+</html>
